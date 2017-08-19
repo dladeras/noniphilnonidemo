@@ -18,6 +18,11 @@
   background-color: #CCCCCC;
   margin: 50px 0; }
 
+.divider-2 {
+  height: 1px;
+  background-image: -moz-linear-gradient(left, #F2EB76 50%, #00986B 90%);
+  margin: 50px 0; }
+
 .company-wrapper {
   position: fixed;
   top: 0;
