@@ -92,4 +92,19 @@ $(document).ready(function(){
       
       lastScrollTop = st;
   }
+
+  (function() {
+
+    var navigationItems = document.getElementsByClassName('list__item__link');
+
+    // Adds an active link to the Sidebar navigation
+    for (var i = 0; i < navigationItems.length; i++) {
+        if (navigationItems[i].href == document.URL) {
+            navigationItems[i].className = 'list__item__link active';
+        }
+    }
+
+  })();
+
+    
 });
